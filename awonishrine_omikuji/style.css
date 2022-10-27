@@ -1,0 +1,290 @@
+@charset "UTF-8";
+html{
+    font-size: 62.5%;/* 16px × 62.5% = 10px*/
+}
+
+body{
+    background-color: white;
+    color:black; 
+    font-family:"Open Sans",'ヒラギノ角ゴ StdN W9', Hiragino Kaku Gothic StdN, "メイリオ", Meiryo, sans-serif;
+    font-size: 1.6rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+/* header */
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.example-img{
+        width: 10%;
+        height: 10%;
+    }
+
+.nav-list{
+        display: flex;
+    }
+    
+.nav-item{
+        margin: 50px 50px 50px 50px;
+        font-size: 1.6rem;
+    }
+
+/* About */
+
+.profile__title{
+    margin: 60px 0 30px;
+    font-size: 2.4rem;
+    color:green;
+}
+    
+.profile__eyecatch{
+    margin: 0 0 60px;
+    font-size: 1.8rem;
+    color:gray;
+}
+    
+.profile__name{
+    margin: 0 0 40px;
+    font-size: 1.6rem;
+    color:#222222;
+    }
+    
+.profile__text{
+    margin: 0 0 40px;
+    line-height:3;
+}
+
+.logo-img{
+    width: 20%;
+    height: 20%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+/* content */
+.works__title{
+    margin: 60px 0 30px;
+    font-size: 2.4rem;
+    color: green;
+}
+
+.works__eyecatch{
+    margin: 0 0 60px;
+    font-size: 1.6rem;
+    color: #222222;
+    line-height:3;
+}
+
+.parent{
+    display: flex;
+    height: auto;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.children{
+    flex-direction: column;
+    margin-left: 0%;
+    background:#fafafa;
+    width: 50%;
+}
+
+.children1{
+    flex-direction: column;
+    margin-left: 0%;
+    background:#fafafa;
+    width: 50%;
+}
+
+.parent1{
+    display: flex;
+    height: auto;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-wrapper1{
+    display: flex;
+    height: auto;
+}
+
+
+.example2{
+    width: 50%;
+    height: auto;
+    margin-left: 0;
+}
+
+.example3{
+    width: 50%;
+    height: auto;
+    margin-left: 0;
+
+}
+
+.c1{
+    margin-top: 120px;
+    margin-bottom: 40px; 
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.c0{
+    background-color: #fafafa;
+    width: 48.2rem;
+}
+
+.c2{
+    margin-bottom: 40px ;
+    margin-left: 50px;
+    width: 48.2rem;
+}
+
+.c3{
+    margin-top:120px;
+    margin-bottom: 40px ;
+    margin-left: 50px;
+    width: 48.2rem;
+}
+
+.c4{
+    margin-bottom: 40px ;
+    margin-left: 50px;
+    width: 48.2rem;
+}
+
+.c5{
+    margin-top: 120px;
+    margin-bottom: 40px; 
+    margin-left: 50px;
+    font-size: 18px; 
+}
+.block1{
+    width: 100%;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+
+
+
+/* access */
+.access1 {
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+
+.paragraph-start {
+    text-align: center;
+    padding: 60px 0 0 0;
+    color:#ffd61a;
+    font-size: 2.4rem;
+}
+
+.paragraph-eyecatch{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 1.8rem;
+    color:#222222;
+}
+
+.paragraph-start1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 2.4rem;
+    color:green;
+}
+
+.paragraph-start2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 1.8rem;
+    color:#222222;
+}
+
+.access-table {
+    padding-top: 45px;
+    padding-left: 35%;
+}
+
+.access-dt {
+    float: left;
+    padding: 10px;
+}
+
+.access-dd {
+    margin-left: 150px;
+    padding: 10px;
+}
+
+/* script */
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:50%;
+    font-size:30px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+li{
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #0066CC;
+    color:#fff;
+}
+
+/* omikuji */
+.content{
+    width:100%;
+    text-align: center;
+    margin-top:50px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.img1{
+    text-align: center;
+    width: 30%;
+}
+
+.content-1{
+    width:100%;
+    height:auto;
+    margin-top:20px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:20px;
+    font-size:30px;
+    line-height:150%;
+}
+
